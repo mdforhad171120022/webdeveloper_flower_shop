@@ -2,7 +2,7 @@
 .banner{
   display: flex;
   background: rgba(229, 84, 115, 0.10);
-  width: 1920px;
+  width: 1800px;
   height: 850px;
   align-items:center ;
  
@@ -99,3 +99,104 @@ margin-right: 240px;
 
 
 }
+/* section3 start from here  */
+.section3-container{
+    width: 1800px;
+    height: 550px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    margin-top:50px;
+    
+}
+.section3-img{
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.section3-header{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section3-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;     
+}
+.section3-title{
+align-items: center;
+margin-top: 130px;
+margin-left:395px;
+}
+.section3-button{
+margin-left:250px;
+border:no border ;
+background: #E55473;
+
+}
+/* section4 start from here */
+.section4-title{
+margin-top: 100px;
+margin-left:395px;
+}
+.section4-container{
+width: 1800px;
+height: 700px;
+}
+.sec4-hdr{
+  text-align:center;  
+}
+.sec4-pg{
+    text-align:center;  
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;    
+}
+.section4-img{
+    /* align-items: center; */
+    margin-left:350px ;
+   
+}
+/* section5 start from here  */
+.sec5-container{
+margin-top: 0px;
+margin-left: 400px;
+width:1300px;
+height: 500px;
+background-image: url("Rectangle 9.png");
+background-position:center;
+}
+/* footer */
+.footer-container{
+margin-left: 400px;
+background-color: black;}
+.footer-hdr{
+  
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    
+}
+.footer-pg{
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;}
